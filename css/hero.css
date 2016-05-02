@@ -1,0 +1,46 @@
+
+#hero{
+	/*background-image: url(../images/header_2.png);*/
+	background-position: 50% 50%;
+	background-size: 1500px auto;
+	background-repeat: no-repeat;
+}
+
+
+.piped { display: block; zoom: 1; }
+.piped:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.piped li { float: left; display: inline; }
+.piped a { border-left: 1px solid #797c80; padding: 0 0 0 0.75em; margin-left: 0.75em; }
+.piped a.first { border-left: 0 !important; padding-left: 0; margin-left: 0 !important; }
+
+
+
+/* promos */
+.promos { position:relative; z-index:1; overflow:hidden; width:100%; height:200px; }
+.promos ul { position:relative; z-index:1; overflow:hidden; margin:0 auto; min-width:1024px; width:100%; max-width:1440px; height:200px; text-align:center; }
+.promos ul li { position:relative; z-index:1; float:left; overflow:hidden; margin:0; /*min-width:360px;*/ width:25%; height:200px; }
+.promos ul li + li + li + li { margin-right:-.3%; margin-right:-.5%; width:25%; }
+
+.promos ul li a { position:absolute; z-index:1; top:0; right:0; bottom:0; left:0; display:block; overflow:hidden; cursor:pointer; }
+.promos ul li + li a { border-left:2px solid #fff; }
+
+.promos ul li a img { position:absolute; z-index:1; left:50%; margin-left:-182px; }
+
+.promos ul li a.left img { left:0; }
+.promos ul li a.right img { right:0; left:auto; }
+
+.promos ul li a img.wide { display:none; }
+@media only screen and (min-width:1200px) {
+	.promos ul li a img.wide { display:block; }
+	.promos ul li a img.narrow { display:none; }
+}
+
+
+#billboard {
+	position:absolute;
+	top:0px;
+	right:0px;
+	left:0px;
+	margin: 0px auto;
+	display:block
+}

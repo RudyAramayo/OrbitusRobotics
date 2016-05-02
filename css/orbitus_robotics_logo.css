@@ -1,0 +1,12 @@
+#orbitus_robotics_logo {
+	position: relative;
+	top: 0px;
+	left:0px;
+	width: 100%;
+	color: #ffffff;
+	font-family: Monospace;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: left;
+	z-index: 1;
+}

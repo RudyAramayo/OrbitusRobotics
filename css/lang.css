@@ -1,0 +1,92 @@
+#lang{
+	margin:0 1px 0 3px
+}
+#lang ul{
+	margin:0
+}
+#lang,#lang ul{
+	list-style:none;
+	padding:0px;
+	float:right;
+	text-align:left;
+	width:110px
+}
+#lang li
+{
+	font:11px/1 Arial,Helvetica,sans-serif;
+}
+#lang li ul
+{
+	position:absolute;
+	left:-1000em;
+	z-index:100
+}
+#lang li:hover ul,#lang li.over ul
+{
+	left:auto
+}
+#lang a img
+{
+	border:none;
+	padding-right:5px;
+	vertical-align:middle
+}
+#lang a span
+{
+	display:block;
+	float:left;
+	margin-top:1px;
+	border:none;
+	padding-right:5px;
+	vertical-align:middle;
+	background:transparent url('../images/icons.png') no-repeat;
+}
+#lang a
+{
+	text-decoration:none;
+	display:block;
+	padding:3px 5px 4px 5px;
+	border:1px solid #888;
+	background:#000 url('../images/icons.png') no-repeat 90px -177px;
+	color:#FFF
+}
+#lang a:hover,#lang li:hover a,#lang li.over a
+{
+	background:#000 url('../images/icons.png') no-repeat 90px -197px;
+	border:1px solid #888;
+	color:#FFF
+}
+#lang li:hover li a,#lang li.over li a
+{
+	width:98px;
+	background:#000
+
+}
+#lang li li a:hover
+{
+	background:#aaa
+}
+#lang a span#flag_en
+{
+	background-position:0 0px;
+	width:16px;
+	height:11px
+}
+#lang a span#flag_es
+{
+	background-position:0 -15px;
+	width:16px;
+	height:11px
+}
+#lang a span#flag_pt
+{
+	background-position:0 -30px;
+	width:16px;
+	height:11px
+}
+#lang a span#flag_ru
+{
+	background-position:0 -45px;
+	width:16px;
+	height:11px
+}

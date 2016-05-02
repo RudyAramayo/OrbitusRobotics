@@ -1,0 +1,101 @@
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form input[type="tel"],
+#contact-form input[type="url"],
+#contact-form textarea,
+#contact-form button[type="submit"] {
+	font:400 12px/12px "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+#contact-form {
+	text-shadow:0 1px 0 #FFF;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	-moz-border-radius:4px;
+	background:#F9F9F9;
+	padding:25px;
+
+}
+#contact-form h3 {
+	color:#505050;
+	display:block;
+	font-size:28px;
+}
+#contact-form h4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+}
+#contact-form label span {
+	cursor:pointer;
+	color:#606060;
+	display:block;
+	margin:5px 0;
+	font-weight:900;
+}
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form input[type="tel"],
+#contact-form input[type="url"],
+#contact-form textarea {
+	width:100%;
+	box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+	-webkit-box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+	-moz-box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	border-radius:5px;
+}
+#contact-form input[type="text"]:hover,
+#contact-form input[type="email"]:hover,
+#contact-form input[type="tel"]:hover,
+#contact-form input[type="url"]:hover,
+#contact-form textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+#contact-form textarea {
+	height:100px;
+	max-width:100%;
+}
+#contact-form button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	background: #761704;
+	background: -moz-linear-gradient(top, #761704 0%, #7f1c0b 50%, #671104 51%, #691407 71%, #65140b 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #761704), color-stop(50%, #7f1c0b), color-stop(51%, #671104), color-stop(71%, #691407), color-stop(100%, #65140b));
+	background: -webkit-linear-gradient(top, #761704 0%, #7f1c0b 50%, #671104 51%, #691407 71%, #65140b 100%);
+	background: -o-linear-gradient(top, #761704 0%, #7f1c0b 50%, #671104 51%, #691407 71%, #65140b 100%);
+	background: -ms-linear-gradient(top, #761704 0%, #7f1c0b 50%, #671104 51%, #691407 71%, #65140b 100%);
+	background: linear-gradient(to bottom, #761704 0%, #7f1c0b 50%, #671104 51%, #691407 71%, #65140b 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#761704', endColorstr='#65140b', GradientType=0 );
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	border-radius:5px;
+	border-color:#774900;
+}
+#contact-form button[type="submit"]:hover {
+	background: #f12f09;
+	background: -moz-linear-gradient(top, #f12f09 0%, #ed492c 50%, #d42308 51%, #d3280d 71%, #cf2917 100%);
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, #f12f09), color-stop(50%, #ed492c), color-stop(51%, #d42308), color-stop(71%, #d3280d), color-stop(100%, #cf2917));
+	background: -webkit-linear-gradient(top, #f12f09 0%, #ed492c 50%, #d42308 51%, #d3280d 71%, #cf2917 100%);
+	background: -o-linear-gradient(top, #f12f09 0%, #ed492c 50%, #d42308 51%, #d3280d 71%, #cf2917 100%);
+	background: -ms-linear-gradient(top, #f12f09 0%, #ed492c 50%, #d42308 51%, #d3280d 71%, #cf2917 100%);
+	background: linear-gradient(to bottom, #f12f09 0%, #ed492c 50%, #d42308 51%, #d3280d 71%, #cf2917 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f12f09', endColorstr='#cf2917', GradientType=0 );
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+#contact-form button[type="submit"]:active {
+	box-shadow:inset 0 1px 3px rgba(0,0,0,0.5);
+}
+#contact-form input:focus,
+#contact-form textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}

@@ -1,0 +1,188 @@
+#orbitus_robotics_logo {
+	width:200%;
+	margin-left:-50%;
+	height:auto;
+}
+
+#cf4a {
+  position:relative;
+  height:400px;
+  width:100%;
+  margin:0 auto;
+  background-size: cover;
+  overflow: hidden;
+
+}
+
+body{
+font-size:.875em;
+}
+#wrapper{
+width:100%;
+border-left:none;
+border-right:none;
+box-shadow: none;
+padding-top:0;
+}
+hr{
+margin:5px 0;
+}
+nav#topbar{
+width:90%;
+}
+nav#topbar ul{
+width:100%;
+margin-bottom:0;
+}
+nav#topbar li{
+float:none;
+display:block;
+padding:0;
+margin:0;
+border-right:none;
+border-bottom:1px solid #000000;
+text-transform:uppercase;
+font-size:1.1em;
+}
+nav#topbar li:first-child{
+border-left:none;
+}
+nav#topbar a{
+padding:5px 0;
+display:block;
+}
+/********
+HEADER
+********/
+header#mobile h1 a{
+color:#315863;
+text-decoration:none;
+}
+header#mobile h1 a:hover, header#mobile h1 a:focus{
+color:#f68c3e;
+}
+/**SITE NAME**/
+#masthead{
+display:none;
+}
+/**SOCIAL NETWORKING LINKS**/
+header#main{
+margin:5px 0;
+}
+header#mobile{
+display:block;
+}
+nav#social{
+float:none;
+margin-right:0;
+margin-left:20px;
+}
+nav#social ul{
+float:none;
+margin:0;
+}
+nav#social li{
+line-height:1em;
+margin:0 10px;
+}
+
+/**********
+CONTENT
+***********/
+#content{
+text-align:left;
+padding:10px;
+}
+#content img{
+max-width:100%;
+height:auto;
+}
+/*****INTRO TEXT *****/
+#intro{
+width:100%;
+margin-top:0;
+text-align:center;
+}
+#imagebg{
+width:100%;
+background:none;
+height:auto; 
+}
+#imagebg p{
+margin-top:0;
+width:100%; 
+float:none;
+}
+/*****MEDIA (LINKS TO VIDEOS & GALLERIES*****/
+#media{
+width:100%; 
+}
+#media h3{
+margin-top:0;
+}
+#media figure{
+float:none;
+width:160px; 
+margin:0 auto ;
+margin-bottom:30px;
+padding: 6px 8px 10px 8px;
+}
+.left, .right{
+width:100%;
+padding:0;
+margin:0;
+}
+.left{
+float:none;
+}
+.right{
+float:none;
+}
+.right img{
+float:none;
+}
+.multi{
+width:100%; 
+float:none;
+padding:0;
+margin:0;
+}
+/**********
+FOOTER
+**********/
+footer{
+width:100%;
+overflow:hidden;
+}
+footer hr{
+margin-top:10px;
+margin-bottom:10px;
+}
+footer nav{
+text-align:left;
+width:100%; 
+float:none;
+margin:10px 0;
+padding-bottom:0;
+}
+footer ul{
+list-style-type:none; /*removes the bullet points*/
+margin:10px 0 10px 10px;
+}
+footer li{
+float:none;
+display:inline-block;
+width:auto; 
+}
+/*Search*/
+#footer-search{
+width:100%; 
+float:none;
+margin-right:30px;
+}
+footer form{
+margin-top:0;
+}
+footer fieldset label, legend{
+display:none /*hide the label and legend*/
+}

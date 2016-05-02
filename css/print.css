@@ -1,0 +1,56 @@
+/* original code by http://templates.tupence.co.uk  */
+/**************
+NOT TO PRINT
+**************/
+header#mobile, nav#social, #footer-search{display:none;}
+/*********
+PRINT
+**********/
+html, body, div, h1, h2, h3, h4, h5, h6, p, a, img, ul, li, header, nav, section, hr, figure, figcaption, article, footer, form, input{margin:0;padding:0;border:0;}
+header, footer, section, nav, article, figure, figcaption  {display: block;}
+.clear{ clear:both;}
+body{background:#fff;color:#3f3f3f;font-family: 'Lucida Grande', Verdana, Arial, Helvetica, sans-serif;font-size:.875em;text-align:center;}
+#wrapper{width:100%; margin:0 auto;padding-top:0;background:#fff;}
+p{font-size:1em;line-height:1.5em;margin-bottom:12px;}
+ul{margin-left:15px;margin-bottom:12px;}
+li{font-size:1em;}
+h1, h2, h3, h4, h5{font-family: 'Oswald', sans-serif; font-weight:300;color:#315863;letter-spacing:0.05em;}
+h1{font-size:2.2em;text-shadow: 0px 1px 4px #676767; }
+h2{font-size:2em;text-shadow: 0px 1px 1px #3d3d3d;}
+h3{font-size:1.5em;}
+h4{font-size:1.3em;}
+h5{font-size:1.1em;}
+a:link{color:#633531;}
+a:visited{color:#555433;}
+hr{margin:10px 0;border: 1px solid #095682;height: 1px;clear:both;}
+nav#topbar{overflow:hidden;margin:0 auto; text-align:center;border: 1px solid #719daf;-webkit-box-shadow: 0 0 5px rgba(0,0,0, .65); -moz-box-shadow: 0 0 5px rgba(0,0,0, .65); box-shadow: 0 0 5px rgba(0,0,0, .65);}
+nav#topbar ul{margin:0 auto;list-style-type:none; text-align:center;}
+nav#topbar li{display:inline; border-right:1px solid #4e6666;font-family: 'Droid Sans', sans-serif; font-size:1em;color:#fff;}
+nav#topbar li:last-child{border-right:none;}
+nav#topbar a{padding:10px 20px;color:#fff;text-decoration:none;}
+header#main{width:100%;overflow:hidden;margin:30px 10px 20px 10px;text-align:left;}
+#masthead h1 a{color:#315863;text-decoration:none;}
+#content{text-align:left;padding:20px;}
+#intro{width:80%;margin:0 auto; margin-top:-20px;text-align:center;}
+#intro p{margin:0 0 10px 0;padding:5px;font-size: 1.15em;font-family: 'Droid Sans', sans-serif; font-weight:300;text-align:justify;}
+#imagebg p{margin-top:0;}
+#media{overflow:hiddden;text-align:center;margin:0 auto; }
+#media h3{margin-top:10px;}
+#media figure{float:left;width:160px; margin:10px 30px;padding: 6px 8px 10px 8px;border:1px solid #ddd;-webkit-box-shadow: 0 8px 4px -4px #838383;-moz-box-shadow: 0 8px 4px -4px #838383; box-shadow: 0 8px 4px -4px #838383; }
+#media figcaption{text-align:center;font-family: 'Happy Monkey', cursive; font-size:.9em;color:#454f40;letter-spacing:0.09em;}
+#media a:link, #media a:visited{text-decoration:none;color:#454f40;}
+.columns{width:100%;overflow:hidden;}
+.columns h2{text-align:center;}
+.left, .right{width:40%; padding:20px 10px;margin:20px;}
+.left{clear:both;float:left;}
+.right{float:right;}
+.right img{float:right;}
+.left img, .right img, .multi img{max-width:90%; height:auto;}
+.multi{width:15%; float:left;padding:10px;margin:20px 10px;}
+footer{width:100%;overflow:hidden; padding:10px 0;}
+footer nav{text-align:left;margin:10px 0;padding-bottom:20px;}
+footer ul{list-style-type:none;margin:10px 0 10px 10px;}
+footer li{float:left; width:145px; padding: 5px 10px;letter-spacing:-1px;line-height:1em;color:#344e66;}
+footer a:link, footer a:visited{color:#595959;text-decoration:none; margin:0 10px;}
+#base{margin:10px 0;padding:0 0 30px 0;color:#3d444b;font-size:.8em;}
+#base h3{margin-bottom:10px;}

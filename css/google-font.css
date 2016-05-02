@@ -1,0 +1,18 @@
+@font-face {
+  font-family: 'Droid Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Droid Sans'), local('DroidSans'), url(http://themes.googleusercontent.com/static/fonts/droidsans/v4/s-BiyweUPV0v-yRb-cjciL3hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
+}
+@font-face {
+  font-family: 'Happy Monkey';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Happy Monkey'), local('HappyMonkey-Regular'), url(http://fonts.gstatic.com/s/happymonkey/v4/c2o0ps8nkBmaOYctqBq1rRampu5_7CjHW5spxoeN3Vs.woff2) format('woff2'), url(http://fonts.gstatic.com/s/happymonkey/v4/c2o0ps8nkBmaOYctqBq1raRDOzjiPcYnFooOUGCOsRk.woff) format('woff');
+}
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Oswald Light'), local('Oswald-Light'), url(http://themes.googleusercontent.com/static/fonts/oswald/v8/HqHm7BVC_nzzTui2lzQTDbO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+}
