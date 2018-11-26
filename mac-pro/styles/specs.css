@@ -1,0 +1,116 @@
+.desktop #specs { /* Screen Unlock */ }
+.desktop #specs #dimensions-inner { background-image: url(/105/media/us/mac-pro/2013/16C1b6b5-1d91-4fef-891e-ff2fc1c1bb58/screensequences/dimensions/dimensions_posterframe.jpg); }
+.desktop #specs .screensequence-video #dimensions-inner.screensequence-endstate { background-image: url(/105/media/us/mac-pro/2013/16C1b6b5-1d91-4fef-891e-ff2fc1c1bb58/screensequences/dimensions/dimensions_posterframe.jpg); }
+.desktop #specs .dimensions .frame .title .ir { background-image: url(/mac-pro/specs/images/dimensions_title.png); width: 233px; height: 30px; }
+.desktop #specs .dimensions .callouts .height .ir { background-image: url(/mac-pro/specs/images/dimensions_height.png); width: 230px; height: 74px; }
+.desktop #specs .dimensions .callouts .diameter .ir { background-image: url(/mac-pro/specs/images/dimensions_diameter.png); width: 230px; height: 74px; }
+.desktop #specs .dimensions .callouts .weight .ir { background-image: url(/mac-pro/specs/images/dimensions_weight.png); width: 230px; height: 80px; }
+.desktop #specs .specifications .header .productname.ir { background-image: url(/mac-pro/specs/images/macpro_coltitle.png); width: 100px; height: 23px; }
+.desktop #specs .specifications .header .first .coltitle.ir { background-image: url(/mac-pro/specs/images/quadcore_coltitle.png); width: 225px; height: 31px; }
+.desktop #specs .specifications .header .second .coltitle.ir { background-image: url(/mac-pro/specs/images/sixcore_coltitle.png); width: 225px; height: 31px; }
+.desktop #specs .specifications .price .title .ir { background-image: url(/mac-pro/specs/images/price_title.png); width: 233px; height: 30px; }
+.desktop #specs .specifications .processor .title .ir { background-image: url(/mac-pro/specs/images/processor_title.png); width: 233px; height: 30px; }
+.desktop #specs .specifications .processor .first .quadcore.ir { background-image: url(/mac-pro/specs/images/processor_quadcore.png); width: 270px; height: 68px; }
+.desktop #specs .specifications .processor .second .sixcore.ir { background-image: url(/mac-pro/specs/images/processor_6core.png); width: 270px; height: 68px; }
+.desktop #specs .specifications .memory .title .ir { background-image: url(/mac-pro/specs/images/memory_title.png); width: 233px; height: 56px; }
+.desktop #specs .specifications .memory .first .name.ir { background-image: url(/mac-pro/specs/images/memory_12gb.png); width: 150px; height: 48px; }
+.desktop #specs .specifications .memory .second .name.ir { background-image: url(/mac-pro/specs/images/memory_16gb.png); width: 150px; height: 48px; }
+.desktop #specs .specifications .graphics .title .ir { background-image: url(/mac-pro/specs/images/graphics_title.png); width: 233px; height: 30px; }
+.desktop #specs .specifications .graphics .first .name .ir { background-image: url(/mac-pro/specs/images/graphics_d300.png); width: 150px; height: 50px; }
+.desktop #specs .specifications .graphics .second .name .ir { background-image: url(/mac-pro/specs/images/graphics_d500.png); width: 150px; height: 50px; }
+.desktop #specs .specifications .displays .title .ir { background-image: url(/mac-pro/specs/images/displays_title.png); width: 233px; height: 30px; }
+.desktop #specs .specifications .displays .fourk .icon.ir { background-image: url(/mac-pro/images/displays_4k_icon.png); width: 126px; height: 85px; }
+.desktop #specs .specifications .displays .fourk .name.ir { background-image: url(/mac-pro/specs/images/displays_4k.png); width: 150px; height: 74px; }
+.desktop #specs .specifications .displays .thunderbolt .name.ir { background-image: url(/mac-pro/specs/images/displays_thunderbolt.png); width: 415px; height: 74px; }
+.desktop #specs .specifications .storage .title .ir { background-image: url(/mac-pro/specs/images/storage_title.png); width: 233px; height: 56px; }
+.desktop #specs .specifications .audio .title .ir { background-image: url(/mac-pro/specs/images/audio_title.png); width: 233px; height: 29px; }
+.desktop #specs .specifications .connections .title .ir { background-image: url(/mac-pro/specs/images/connections_title.png); width: 233px; height: 60px; }
+.desktop #specs .specifications .connections .callouts .callout.usb.ir { background-image: url(/mac-pro/specs/images/connections_callout_usb.png); width: 242px; height: 80px; }
+.desktop #specs .specifications .connections .callouts .callout.thunderbolt.ir { background-image: url(/mac-pro/specs/images/connections_callout_thunderbolt.png); width: 242px; height: 80px; }
+.desktop #specs .specifications .connections .callouts .callout.ethernet.ir { background-image: url(/mac-pro/specs/images/connections_callout_ethernet.png); width: 242px; height: 80px; }
+.desktop #specs .specifications .connections .callouts .callout.hdmi.ir { background-image: url(/mac-pro/specs/images/connections_callout_hdmi.png); width: 242px; height: 80px; }
+.desktop #specs .specifications .wireless .title .ir { background-image: url(/mac-pro/specs/images/wireless_title.png); width: 233px; height: 30px; }
+.desktop #specs .specifications .wireless .first .icons .bluetooth .ir { background-image: url(/mac-pro/specs/images/wireless_bluetooth_icon.png); width: 115px; height: 96px; }
+.desktop #specs .specifications .wireless .first .icons .standard .ir { background-image: url(/mac-pro/specs/images/wireless_80211ac_icon.png); width: 73px; height: 96px; }
+.desktop #specs .specifications .requirements .title .ir { background-image: url(/mac-pro/specs/images/requirements_title.png); width: 233px; height: 90px; }
+.desktop #specs .specifications .warranty .title .ir { background-image: url(/mac-pro/specs/images/warranty_title.png); width: 233px; height: 60px; }
+.desktop #specs .specifications .warranty .first { padding-right: 22px; }
+.desktop #specs .specifications .lock .title .ir { background-image: url(/mac-pro/specs/images/lock_title.png); width: 233px; height: 30px; }
+.desktop #specs .specifications .inthebox .title .ir { background-image: url(/mac-pro/specs/images/inthebox_title.png); width: 233px; height: 30px; }
+.desktop #specs .specifications .software .title .ir { background-image: url(/mac-pro/specs/images/software_title.png); width: 233px; height: 30px; }
+.desktop #specs .specifications .environment .title .ir { background-image: url(/mac-pro/specs/images/environment_title.png); width: 233px; height: 60px; }
+
+
+html.mobile #specs .dimensions .title { background-image: url(/mac-pro/specs/images/mobile/dimensions_title_2x.png); width: 912px; height: 62px; }
+html.mobile #specs .dimensions .callouts .height .ir { background-image: url(/mac-pro/specs/images/mobile/dimensions_height_2x.png); width: 190px; height: 102px; }
+html.mobile #specs .dimensions .callouts .diameter .ir { background-image: url(/mac-pro/specs/images/mobile/dimensions_diameter_2x.png); width: 204px; height: 102px; }
+html.mobile #specs .dimensions .callouts .weight .ir { background-image: url(/mac-pro/specs/images/mobile/dimensions_weight_2x.png); width: 182px; height: 102px; }
+html.mobile #specs .main .header .productname { width: 440px; height: 98px; }
+html.mobile #specs .main .header .first .productname { background-image: url(/mac-pro/specs/images/mobile/quad_core_productname_2x.png); }
+html.mobile #specs .main .header .second .productname { background-image: url(/mac-pro/specs/images/mobile/six_core_productname_2x.png); }
+html.mobile #specs .main .price .title { background-image: url(/mac-pro/specs/images/mobile/price_title_2x.png); width: 440px; height: 62px; }
+html.mobile #specs .main .price .first p { background-image: url(/mac-pro/specs/images/mobile/price_4_core_2x.png); width: 440px; height: 136px; }
+html.mobile #specs .main .price .second p { background-image: url(/mac-pro/specs/images/mobile/price_6_core_2x.png); width: 440px; height: 136px; }
+html.mobile #specs .main .processor .title { background-image: url(/mac-pro/specs/images/mobile/processor_title_2x.png); width: 440px; height: 62px; }
+html.mobile #specs .main .processor .name { width: 440px; height: 116px; }
+html.mobile #specs .main .processor .quadcore.name { background-image: url(/mac-pro/specs/images/mobile/quad_core_2x.png); }
+html.mobile #specs .main .processor .sixcore.name { background-image: url(/mac-pro/specs/images/mobile/6_core_2x.png); }
+html.mobile #specs .main .memory .title { background-image: url(/mac-pro/specs/images/mobile/memory_title_2x.png); width: 440px; height: 114px; }
+html.mobile #specs .main .memory .name { width: 240px; height: 110px; }
+html.mobile #specs .main .memory .first .name.ir { background-image: url(/mac-pro/specs/images/mobile/12_gb_2x.png); }
+html.mobile #specs .main .memory .second .name.ir { background-image: url(/mac-pro/specs/images/mobile/16_gb_2x.png); }
+html.mobile #specs .main .graphics .title { background-image: url(/mac-pro/specs/images/mobile/graphics_title_2x.png); width: 440px; height: 62px; }
+html.mobile #specs .main .graphics .name .ir { width: 440px; height: 100px; }
+html.mobile #specs .main .graphics .first .name .ir { background-image: url(/mac-pro/specs/images/mobile/graphics_d300_2x.png); }
+html.mobile #specs .main .graphics .second .name .ir { background-image: url(/mac-pro/specs/images/mobile/graphics_d500_2x.png); }
+html.mobile #specs .main .displays .title { background-image: url(/mac-pro/specs/images/mobile/display_title_2x.png); width: 912px; height: 62px; }
+html.mobile #specs .main .displays .fourk .icon { background-image: url(/mac-pro/specs/images/mobile/4k_icon_2x.png); width: 254px; height: 170px; }
+html.mobile #specs .main .displays .fourk .name { background-image: url(/mac-pro/specs/images/mobile/displays_4k_2x.png); width: 328px; height: 152px; }
+html.mobile #specs .main .displays .thunderbolt .name { background-image: url(/mac-pro/specs/images/mobile/displays_thunderbolt_2x.png); width: 608px; height: 138px; }
+html.mobile #specs .main .storage .title { background-image: url(/mac-pro/specs/images/mobile/storage_title_2x.png); width: 912px; height: 114px; }
+html.mobile #specs .main .audio .title { background-image: url(/mac-pro/specs/images/mobile/audio_title_2x.png); width: 912px; height: 62px; }
+html.mobile #specs .main .connections .title { background-image: url(/mac-pro/specs/images/mobile/expansion_title_2x.png); width: 912px; height: 62px; }
+html.mobile #specs .main .connections .callouts { background-image: url(/mac-pro/specs/images/mobile/expansion_specs_2x.png); width: 912px; height: 526px; }
+html.mobile #specs .main .wireless .title { background-image: url(/mac-pro/specs/images/mobile/wireless_title_2x.png); width: 912px; height: 62px; }
+html.mobile #specs .main .wireless .icons { background-image: url(/mac-pro/specs/images/mobile/wireless_specs_2x.png); width: 912px; height: 210px; }
+html.mobile #specs .main .requirements .title .ir { background-image: url(/mac-pro/specs/images/mobile/requirements_title_2x.png); width: 912px; height: 62px; }
+html.mobile #specs .main .warranty .title .ir { background-image: url(/mac-pro/specs/images/mobile/warranty_title_2x.png); width: 912px; height: 62px; }
+html.mobile #specs .main .inthebox .title .ir { background-image: url(/mac-pro/specs/images/mobile/box_title_2x.png); width: 912px; height: 62px; }
+html.mobile #specs .main .software .title { background-image: url(/mac-pro/specs/images/mobile/software_title_2x.png); width: 912px; height: 62px; }
+html.mobile #specs .main .environment .title { background-image: url(/mac-pro/specs/images/mobile/environment_title_2x.png); width: 912px; height: 62px; }
+
+
+/* Updates - April 2017 */
+.desktop #specs .updates-04-17 .specifications .memory .first .name.ir { background-image: url(/mac-pro/specs/images/memory_16gb.png); width: 150px; height: 48px; }
+.desktop #specs .updates-04-17 .specifications .header .first .coltitle.ir { background-image: url(/mac-pro/specs/images/6core_cotitle_new_large.png); width: 68px; height: 31px; }
+.desktop #specs .updates-04-17 .specifications .header .second .coltitle.ir { background-image: url(/mac-pro/specs/images/8core_cotitle_large.png); width: 69px; height: 31px; }
+.desktop #specs .updates-04-17 .specifications .processor .first .quadcore.ir { background-image: url(/mac-pro/specs/images/processor_6core_new_large.png); width: 137px; height: 68px; }
+.desktop #specs .updates-04-17 .specifications .processor .first .icon .ir { background-image: url(/v/mac-pro/b/images/processor_6core_icon.png); width: 192px; height: 126px; }
+.desktop #specs .updates-04-17 .specifications .processor .second .sixcore.ir { background-image: url(/mac-pro/specs/images/processor_8core_large.png); width: 136px; height: 68px; margin-top: -21px; margin-bottom: 22px; }
+.desktop #specs .updates-04-17 .specifications .processor .second .icon .ir { background-image: url(/v/mac-pro/b/images/processor_quadcore_icon.png); width: 126px; height: 126px; float: left; margin-right: 8px; }
+.desktop #specs .updates-04-17 .specifications .graphics .first .name .ir { background-image: url(/mac-pro/specs/images/graphics_d500_new_large.png); width: 150px; height: 50px; }
+.desktop #specs .updates-04-17 .specifications .graphics .second .name .ir { background-image: url(/mac-pro/specs/images/graphics_d700_large.png); width: 150px; height: 50px; }
+
+html.mobile #specs .updates-04-17 .main .memory .first .name.ir { background-image: url(/mac-pro/specs/images/mobile/16_gb_2x.png); }
+html.mobile #specs .updates-04-17 .main .header .first .productname { background-image: url(/mac-pro/specs/images/mobile/6core_productname_new_small_2x.png); width: 164px; height: 98px; }
+html.mobile #specs .updates-04-17 .main .header .second .productname { background-image: url(/mac-pro/specs/images/mobile/8core_productname_small_2x.png); width: 166px; height: 98px; }
+html.mobile #specs .updates-04-17 .main .processor .quadcore.name { background-image: url(/mac-pro/specs/images/mobile/processor_6core_new_small_2x.png); width: 228px; height: 116px; }
+html.mobile #specs .updates-04-17 .main .processor .sixcore.name { background-image: url(/mac-pro/specs/images/mobile/processor_8core_small_2x.png); width: 228px; height: 116px; }
+html.mobile #specs .updates-04-17 .main .graphics .first .name .ir { background-image: url(/mac-pro/specs/images/mobile/graphics_d500_small_2x.png); width: 248px; height: 100px; }
+html.mobile #specs .updates-04-17 .main .graphics .second .name .ir { background-image: url(/mac-pro/specs/images/mobile/graphics_d700_small_2x.png); width: 248px; height: 100px; }
+
+html.mobile #specs .updates-04-17 .main .processor .second .icon.selfclear { margin-bottom: 16px; }
+
+html.desktop #specs .updates-04-17 .specifications .memory .icon,
+html.mobile #specs .updates-04-17 .specifications .memory .icon {
+	float: left;
+	margin-right: 45px;
+}
+html.desktop #specs .updates-04-17 .specifications .memory .first .icon .ir { background-image: url(/v/mac-pro/b/images/memory_16gb_icon.png); width: 138px; }
+html.desktop #specs .updates-04-17 .specifications .memory .copy { float: left; max-width: 270px; }
+
+html.mobile #specs .updates-04-17 .specifications .memory .copy { float: left; width: 80%; }
+html.mobile #wrapper .main .memory td:last-child { border-left: none; }
+html.mobile #wrapper .main .memory .first { width: 100%; }
+html.mobile #specs .updates-04-17 .specifications .memory .icon { margin-right: 80px; margin-top: 60px; }
+/* End Updates - April 2017 */

@@ -1,0 +1,7 @@
+#wrapper { width:100%; }
+
+#assembled-in-usa.acvideo-ios8 .acv-native-playbutton { display:none; }
+#assembled-in-usa.acvideo-ios8 .ac-video-media { opacity:1; }
+
+body { padding-bottom:0; }
+.footer-wrapper { position:static; min-height:40%; margin-top: 60px; }

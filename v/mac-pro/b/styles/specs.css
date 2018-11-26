@@ -1,0 +1,189 @@
+.ib { display: inline-block; *display: inline; zoom: 1; }
+
+/* shared animations */
+#specs .dimensions .frame .callouts .callout { opacity: 0; margin-bottom: 60px; font-size: 1.166em; -webkit-transition: opacity 0.6s ease-out; -moz-transition: opacity 0.6s ease-out; transition: opacity 0.6s ease-out; }
+
+#specs .dimensions .frame .callouts.show-height .height, #specs .dimensions .frame .callouts.show-weight .weight, #specs .dimensions .frame .callouts.show-diameter .diameter { opacity: 1; }
+
+#specs .specifications .connections .hero .on { z-index: 1; }
+
+html.desktop { /* header */ /* ipad portrait */ /* ipad landscape */ /* table */ }
+html.desktop, html.desktop #specs, html.desktop #wrapper, html.desktop #specs, html.desktop .specs-desktop, html.desktop .dimensions { height: 100%; width: 100%; min-height: 583px; }
+html.desktop .specs-desktop, html.desktop .dimensions { position: relative; }
+html.desktop #specs .dimensions, html.desktop #specs .dimensions .title, html.desktop #specs .dimensions .imagery, html.desktop #specs .dimensions .frame, html.desktop #specs .dimensions .imagery #screensequence-dimensions, html.desktop #specs .dimensions .imagery #screensequence-dimensions .screen, html.desktop #specs .dimensions .imagery #screensequence-dimensions .screen #dimensions-inner, html.desktop #specs .dimensions .imagery #screensequence-dimensions .screen .screensequence-element, html.desktop #specs .dimensions .imagery #screensequence-dimensions .screen .fallback { min-height: 580px; }
+html.desktop #specs .dimensions .imagery #screensequence-dimensions .screen #dimensions-inner, html.desktop #specs .dimensions .imagery #screensequence-dimensions .screen .fallback { min-width: 580px; }
+html.desktop #specs .dimensions .imagery #screensequence-dimensions { top: -111px; }
+html.desktop #specs .dimensions { margin: 115px auto 0; height: 70%; min-width: 980px; position: relative; z-index: 1; }
+html.desktop #specs .dimensions .title { border-top: 1px solid #666; width: 203px; padding: 30px 30px 30px 0; }
+html.desktop #specs .dimensions .imagery { height: 120%; position: relative; }
+html.desktop #specs .dimensions .imagery #screensequence-dimensions img { display: none; *display: block; }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) { html.desktop #specs .dimensions .imagery { height: 1029px; width: 1024px; } }
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) { html.desktop #specs .dimensions .imagery { height: 580px; width: 1024px; } }
+html.desktop #specs .dimensions .product { position: relative; z-index: 1; display: block; height: 120%; margin: 0 auto; }
+html.desktop #specs .dimensions .frame { width: 980px; position: absolute; overflow: hidden; z-index: 2; left: 50%; top: 0; height: 100%; margin: 0 0 0 -490px; }
+html.desktop #specs .dimensions .frame .callouts { position: absolute; right: 220px; top: 50%; margin-top: -290px !important; -webkit-transform: translateZ(0); -moz-transform: translateZ(0); transform: translateZ(0); }
+html.desktop #specs .dimensions .frame .callouts.pre { visibility: hidden; }
+html.desktop #specs .dimensions .frame .callouts .callout .value { margin-bottom: -2px; }
+html.desktop #screensequence-dimensions { height: 100%; position: relative; z-index: 1; overflow: hidden; }
+html.desktop #screensequence-dimensions .screensequence-screen { height: 100%; background-position: 50% 0 !important; background-size: auto 100% !important; }
+html.desktop #screensequence-dimensions #dimensions-inner { background-repeat: no-repeat; background-position: 50% 0; background-size: auto 100%; }
+html.desktop #screensequence-dimensions #dimensions-inner, html.desktop #screensequence-dimensions img, html.desktop #screensequence-dimensions video, html.desktop #screensequence-dimensions canvas { position: relative; z-index: 1; display: block; height: 100%; width: auto; margin: 0 auto; }
+html.desktop #screensequence-dimensions img { z-index: 5; top: -100%; }
+html.desktop #screensequence-dimensions video { position: absolute; z-index: 1010; top: 0; left: 1px; visibility: hidden; }
+html.desktop #screensequence-dimensions canvas { z-index: 15; top: -100%; -webkit-transition: opacity 0.6s ease-out; -moz-transition: opacity 0.6s ease-out; transition: opacity 0.6s ease-out; }
+html.desktop #screensequence-dimensions.screensequence-playing video { visibility: visible; margin-right: -4px; }
+@media only screen and (max-device-width: 768px) { html.desktop { /* ipad/iphone */ }
+  html.desktop #screensequence-dimensions #dimensions-inner, html.desktop #screensequence-dimensions img, html.desktop #screensequence-dimensions video, html.desktop #screensequence-dimensions canvas { height: 98%; }
+  html.desktop #screensequence-dimensions img, html.desktop #screensequence-dimensions video, html.desktop #screensequence-dimensions canvas { top: -98%; } }
+html.desktop .screensequence-ended canvas { opacity: 0; }
+html.desktop #dimensions-inner .fallback { top: 0; height: 100%; width: auto; }
+html.desktop #screensequence-dimensions.screensequence-playing .screen { background-image: none !important; }
+html.desktop #screensequence-dimensions .screensequence-endstate { background-position: 50% 0; background-size: auto 100% !important; background-repeat: no-repeat; }
+html.desktop #specs .main { position: relative; z-index: 5; }
+html.desktop #specs .specifications td, html.desktop #specs .specifications th { padding-bottom: 30px; }
+html.desktop #specs .specifications .vr { border-left: 1px solid #666; }
+html.desktop #specs .row-divider { height: 30px; }
+html.desktop #specs .specifications { width: 980px; margin: 0 auto; font-size: 1.333em; line-height: 1.6875; }
+html.desktop #specs .specifications, html.desktop #specs .specifications p { color: #fff; }
+html.desktop #specs .specifications .subdued { color: #999; }
+html.desktop #specs .specifications th, html.desktop #specs .specifications td { vertical-align: top; }
+html.desktop #specs .specifications .divider { min-width: 100px; width: 100px; padding: 0; }
+html.desktop #specs .specifications .title, html.desktop #specs .specifications .first, html.desktop #specs .specifications .second { vertical-align: top; padding: 30px 30px 0 30px; border-top: 1px solid #666; }
+html.desktop #specs .specifications .title, html.desktop #specs .specifications .first { padding-left: 0; }
+html.desktop #specs .specifications .first { margin-bottom: 30px; }
+html.desktop #specs .specifications .title { width: 203px; }
+html.desktop #specs .specifications .second { width: 286px; }
+html.desktop #specs .specifications .header .first, html.desktop #specs .specifications .header .second { border: none; padding-bottom: 30px; }
+html.desktop #specs .specifications .price td, html.desktop #specs .specifications .processor td, html.desktop #specs .specifications .memory td, html.desktop #specs .specifications .graphics td { padding-bottom: 0; }
+html.desktop #specs .specifications .processor .icon { margin-bottom: 100px; }
+html.desktop #specs .specifications .processor .name { margin-top: -17px; }
+html.desktop #specs .specifications .processor .name.sixcore { margin-top: -21px; }
+html.desktop #specs .specifications .memory .icon { margin-bottom: 100px; }
+html.desktop #specs .specifications .memory .name.ir { margin-bottom: 8px; }
+html.desktop #specs .specifications .memory .name.bright { margin-bottom: 13px; }
+html.desktop #specs .specifications .memory .name img { margin-bottom: -3px; }
+html.desktop #specs .specifications .graphics td, html.desktop #specs .specifications .graphics .subdued, html.desktop #specs .specifications .graphics .first, html.desktop #specs .specifications .graphics .second { padding-bottom: 0; }
+html.desktop #specs .specifications .graphics .icon { display: block; padding-bottom: 25px; }
+html.desktop #specs .specifications .graphics .second { border-left: 0; }
+html.desktop #specs .specifications .graphics .name { margin-bottom: 90px; }
+html.desktop #specs .specifications .graphics .name .value { padding: 8px 0 4px; }
+html.desktop #specs .specifications .graphics .name .ir { margin: -9px 0 8px 0; }
+html.desktop #specs .specifications .graphics ul { list-style: disc; padding-left: 20px; margin-bottom: 18px; }
+html.desktop #specs .specifications .requirements ul { list-style: disc; padding-left: 20px; margin-bottom: 18px; }
+html.desktop #specs .specifications .displays .first > p { margin-bottom: 11px; }
+html.desktop #specs .specifications .displays .icon { float: left; }
+html.desktop #specs .specifications .displays .copy { float: left; }
+html.desktop #specs .specifications .displays .copy p { margin-bottom: 4px; }
+html.desktop #specs .specifications .displays .fourk { margin-bottom: 52px; }
+html.desktop #specs .specifications .displays .icon { margin: 16px 22px -11px 0; }
+html.desktop #specs .specifications .displays .fourk .copy .name { margin: -10px 0 -2px; }
+html.desktop #specs .specifications .displays .thunderbolt .copy .name { margin: -7px 0 -4px; }
+html.desktop #specs .specifications .connections .title { margin-top: 175px; }
+html.desktop #specs .specifications .connections .first { border: none; padding-left: 71px; padding-top: 0; }
+html.desktop #specs .specifications .connections .callouts { float: left; margin: 100px 0 0 35px; width: 185px; }
+html.desktop #specs .specifications .connections .callout { margin-bottom: 40px; }
+html.desktop #specs .specifications .connections .callout .ir { display: inline-block; *display: inline; }
+html.desktop #specs .specifications .connections .hero { display: block; float: left; width: 398px; height: 618px; margin: 0 0 0 -26px; }
+html.desktop #specs .specifications .connections .hero.fade .on { position: relative; }
+html.desktop #specs .specifications .software .icon { margin-bottom: 20px; }
+html.desktop #specs .specifications .software .first { margin-right: 0; }
+html.desktop #specs .specifications .software .applist { padding-right: 16px; }
+html.desktop #specs .wireless p { margin-bottom: 0; }
+html.desktop #specs .wireless .icons { margin-bottom: 40px; }
+html.desktop #specs .wireless .icons .icon { float: left; margin-right: 55px; }
+html.desktop #specs .environment ul { list-style: disc; padding-left: 20px; margin-bottom: 18px; }
+html.desktop #specs .environment .notes p { margin-bottom: 0; }
+html.desktop #specs .specifications p { clear: both; }
+html.desktop #specs .specifications .storage .rounded { color: #fff; border-radius: 8px; border: 2px solid #fff; padding: 5px 13px; float: left; }
+
+html.desktop.no-js #specs .dimensions { height: 696px; }
+html.desktop.no-js #specs .dimensions .frame .callouts { right: 0; }
+html.desktop.no-js #specs .dimensions .frame .callouts .callout { opacity: 1; }
+
+html.mobile #wrapper { overflow: hidden; }
+html.mobile #wrapper td.row-divider { display: none; }
+html.mobile #wrapper header, html.mobile #wrapper .main tr { /* Section borders */ max-width: 912px; position: relative; display: block; margin-top: 34px; }
+html.mobile #wrapper header:before, html.mobile #wrapper .main tr:before { content: ''; position: absolute; top: 0; left: 6px; height: 3px; z-index: 3; width: 898px; border-top: 3px solid #666; }
+html.mobile #wrapper header .title, html.mobile #wrapper .main tr .title { position: absolute; top: 34px; left: 0; z-index: 2; -webkit-transform: translateZ(0); }
+html.mobile #wrapper header { margin-top: 115px; }
+html.mobile #wrapper header:before { -webkit-transform: translateZ(0); }
+html.mobile #wrapper header #screensequence-dimensions { height: 904px; margin-top: -84px; margin-bottom: -35px; position: relative; z-index: 1; overflow: hidden; border: 10px solid #000; }
+html.mobile #wrapper header #screensequence-dimensions .fallback { position: absolute; width: 100%; height: 100%; }
+html.mobile #wrapper header .callouts { text-align: center; margin-bottom: 30px; position: relative; z-index: 2; -webkit-transform: translateZ(0); }
+html.mobile #wrapper header .callouts .callout { display: inline-block; padding: 0 28px; }
+html.mobile #wrapper header .callouts .callout .dimension { text-align: left; margin-left: 8px; font-size: .65em; }
+html.mobile #wrapper .main { /* force reset on a few image assets */ /* Column setup */ }
+html.mobile #wrapper .main .name.ir { padding: 0; }
+html.mobile #wrapper .main .divider { display: none; }
+html.mobile #wrapper .main .price .first p, html.mobile #wrapper .main .price .second p, html.mobile #wrapper .main .connections .callouts, html.mobile #wrapper .main .wireless .icons { background-size: 100% 100%; background-repeat: no-repeat; text-indent: 200%; white-space: nowrap; overflow: hidden; }
+html.mobile #wrapper .main ul { list-style: inside; margin-bottom: 24px; }
+html.mobile #wrapper .main tr { margin-top: 136px; text-align: left; }
+html.mobile #wrapper .main tr > td { padding-top: 124px; vertical-align: top; overflow: hidden; }
+html.mobile #wrapper .main tr p, html.mobile #wrapper .main tr h4, html.mobile #wrapper .main tr span, html.mobile #wrapper .main tr li, html.mobile #wrapper .main tr a.more { font-size: 1em; }
+html.mobile #wrapper .main tr .subhead h4 { font-size: .90em; }
+html.mobile #wrapper .main tr p, html.mobile #wrapper .main tr li { color: #FFF; }
+html.mobile #wrapper .main tr .subdued { color: #999; }
+html.mobile #wrapper .main .header .productname { margin-bottom: 40px; }
+html.mobile #wrapper .main .header, html.mobile #wrapper .main .price, html.mobile #wrapper .main .processor, html.mobile #wrapper .main .memory, html.mobile #wrapper .main .graphics { margin-top: 0; margin-bottom: 94px; }
+html.mobile #wrapper .main .header td, html.mobile #wrapper .main .price td, html.mobile #wrapper .main .processor td, html.mobile #wrapper .main .memory td, html.mobile #wrapper .main .graphics td { position: relative; overflow: visible; }
+html.mobile #wrapper .main .header .first, html.mobile #wrapper .main .header .second, html.mobile #wrapper .main .price .first, html.mobile #wrapper .main .price .second, html.mobile #wrapper .main .processor .first, html.mobile #wrapper .main .processor .second, html.mobile #wrapper .main .memory .first, html.mobile #wrapper .main .memory .second, html.mobile #wrapper .main .graphics .first, html.mobile #wrapper .main .graphics .second { position: relative; }
+html.mobile #wrapper .main .header .first, html.mobile #wrapper .main .price .first, html.mobile #wrapper .main .processor .first, html.mobile #wrapper .main .memory .first, html.mobile #wrapper .main .graphics .first { width: 450px; overflow: hidden; }
+html.mobile #wrapper .main .header td:last-child, html.mobile #wrapper .main .price td:last-child, html.mobile #wrapper .main .processor td:last-child, html.mobile #wrapper .main .memory td:last-child, html.mobile #wrapper .main .graphics td:last-child { border-left: 3px solid #666; }
+html.mobile #wrapper .main .header .first p, html.mobile #wrapper .main .price .first p, html.mobile #wrapper .main .processor .first p, html.mobile #wrapper .main .memory .first p, html.mobile #wrapper .main .graphics .first p { padding-right: 34px; }
+html.mobile #wrapper .main .header .second, html.mobile #wrapper .main .price .second, html.mobile #wrapper .main .processor .second, html.mobile #wrapper .main .memory .second, html.mobile #wrapper .main .graphics .second { padding-left: 34px; margin-right: -34px; max-width: 450px; overflow: hidden; }
+html.mobile #wrapper .main .processor .icon, html.mobile #wrapper .main .memory .icon, html.mobile #wrapper .main .display .icon, html.mobile #wrapper .main .software .icon, html.mobile #wrapper .main .environment .icon { display: inline-block; margin: 0 11px; }
+html.mobile #wrapper .main .processor .configuration, html.mobile #wrapper .main .memory .configuration, html.mobile #wrapper .main .display .configuration, html.mobile #wrapper .main .software .configuration, html.mobile #wrapper .main .environment .configuration { height: 375px; }
+html.mobile #wrapper .main .header tr { margin-top: 0; }
+html.mobile #wrapper .main .header tr:before { border-top: 0; }
+html.mobile #wrapper .main .header .first:after { display: none; }
+html.mobile #wrapper .main .header .productname { display: inline-block; }
+html.mobile #wrapper .main .processor h4 { margin-top: 85px; }
+html.mobile #wrapper .main .memory td { padding-top: 174px; }
+html.mobile #wrapper .main .memory .name.ir { margin-top: 55px; }
+html.mobile #wrapper .main .memory .name.bright { margin-top: -10px; margin-bottom: 55px; }
+html.mobile #wrapper .main .memory figure { margin-bottom: 40px; }
+html.mobile #wrapper .main .memory h4 { margin: 18px 0 50px; }
+html.mobile #wrapper .main .graphics .subhead { margin-bottom: 45px; }
+html.mobile #wrapper .main .graphics .subhead h4 { margin: 35px 0; }
+html.mobile #wrapper .main .graphics > p { padding-left: 100px; padding-right: 100px; }
+html.mobile #wrapper .main .graphics .icon { margin: 70px 0 50px; }
+html.mobile #wrapper .main .displays .fourk { margin: 70px 0 176px; }
+html.mobile #wrapper .main .displays .icon, html.mobile #wrapper .main .displays .copy { float: left; }
+html.mobile #wrapper .main .displays .copy { margin: -34px 0 0 44px; }
+html.mobile #wrapper .main .displays .copy p:first-child, html.mobile #wrapper .main .displays .copy p:last-child { padding-left: 10px; }
+html.mobile #wrapper .main .displays .copy p:first-child { margin-bottom: -10px; }
+html.mobile #wrapper .main .displays .copy p:last-child { margin-top: -20px; }
+html.mobile #wrapper .main .storage .rounded { margin-top: 90px; display: inline-block; padding: 9px 28px; border: 3px solid #999; -webkit-border-radius: 15px; -moz-border-radius: 15px; border-radius: 15px; margin-bottom: 60px; }
+html.mobile #wrapper .main .storage p:last-child { color: #999; }
+html.mobile #wrapper .main .audio p { display: list-item; list-style: inside; }
+html.mobile #wrapper .main .connections { text-align: center; }
+html.mobile #wrapper .main .connections > td { padding-top: 204px; }
+html.mobile #wrapper .main .connections .hero, html.mobile #wrapper .main .connections .callouts { display: inline-block; }
+html.mobile #wrapper .main .connections .hero { position: relative; margin-bottom: 73px; width: 410px; height: 632px; }
+html.mobile #wrapper .main .connections .hero .on { position: absolute; top: 0; left: 0; }
+html.mobile #wrapper .main .wireless .icons { margin-bottom: 80px; }
+html.mobile #wrapper .main .requirements li { list-style: inside; }
+html.mobile #wrapper .main .software p, html.mobile #wrapper .main .software ul, html.mobile #wrapper .main .environment p, html.mobile #wrapper .main .environment ul { padding-right: 70px; }
+html.mobile #wrapper .main .environment .icon { margin-bottom: 50px; }
+html.mobile #wrapper .main .environment a.more { font-size: 1em; }
+html.mobile #wrapper .main .environment li { list-style: inside; }
+
+.desktop #specs { /* Screen Unlock */ }
+.desktop #specs #dimensions-inner { background-image: url(/105/media/us/mac-pro/16C1b6b5-1d91-4fef-891e-ff2fc1c1bb58/screensequences/dimensions/dimensions_posterframe.jpg); }
+.desktop #specs .screensequence-video #dimensions-inner.screensequence-endstate { background-image: url(/105/media/us/mac-pro/16C1b6b5-1d91-4fef-891e-ff2fc1c1bb58/screensequences/dimensions/dimensions_posterframe.jpg); }
+.desktop #specs .specifications .processor .first .icon .ir { background-image: url(/v/mac-pro/b/images/processor_quadcore_icon.png); width: 126px; height: 126px; }
+.desktop #specs .specifications .processor .second .icon .ir { background-image: url(/v/mac-pro/b/images/processor_6core_icon.png); width: 192px; height: 126px; }
+.desktop #specs .specifications .memory .first .icon .ir { background-image: url(/v/mac-pro/b/images/memory_12gb_icon.png); width: 101px; height: 109px; }
+.desktop #specs .specifications .memory .second .icon .ir { background-image: url(/v/mac-pro/b/images/memory_16gb_icon.png); width: 138px; height: 109px; }
+.desktop #specs .specifications .graphics .first .icon .ir { background-image: url(/v/mac-pro/b/images/graphics_intel_chips.jpg); width: 92px; height: 58px; }
+.desktop #specs .specifications .graphics .second .icon .ir { background-image: url(/v/mac-pro/b/images/graphics_intel_chips.jpg); width: 92px; height: 58px; }
+.desktop #specs .specifications .displays .thunderbolt .icon.ir { background-image: url(/v/mac-pro/b/images/displays_thunderbolt_icon.png); width: 126px; height: 89px; }
+.desktop #specs .specifications .connections .hero .on.ir { background-image: url(/v/mac-pro/b/images/connections_hero.jpg); width: 398px; height: 618px; }
+.desktop #specs .specifications .software .first .icon .ir { background-image: url(/v/mac-pro/b/images/software_osx_icon.png); width: 66px; height: 66px; }
+
+html.mobile #specs .main .processor .icon { background-image: url(/v/mac-pro/b/images/mobile/processor_core_icon_2x.png); width: 118px; height: 118px; }
+html.mobile #specs .main .memory .icon { background-image: url(/v/mac-pro/b/images/mobile/memory_icon_2x.png); width: 56px; height: 218px; }
+html.mobile #specs .main .graphics .icon { background-image: url(/v/mac-pro/b/images/mobile/specs_firepro_2x.jpg); width: 186px; height: 118px; }
+html.mobile #specs .main .displays .thunderbolt .icon { background-image: url(/v/mac-pro/b/images/mobile/thunderbolt_icon_2x.png); width: 254px; height: 180px; }
+html.mobile #specs .main .connections .hero .on { background-image: url(/v/mac-pro/b/images/mobile/ports_on_2x.jpg); width: 410px; height: 632px; }
+html.mobile #specs .main .software .icon { background-image: url(/v/mac-pro/b/images/mobile/osx_icon_2x.jpg); width: 136px; height: 136px; }

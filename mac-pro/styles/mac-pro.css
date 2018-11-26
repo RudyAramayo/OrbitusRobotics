@@ -1,0 +1,36 @@
+/* local ipad styles  */
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px) {
+	#ipad {  }
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+	#ipad {  }
+}
+
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : landscape) {
+	#ipad {  }
+}
+
+/* local desktop styles */
+#desktop {  }
+
+/* local static styles */
+#static {  }
+
+/* local iphone styles */
+.iphone {  }
+
+/* Updates - April 2017 */
+html.mobile .content-wrapper.updates-04-17 #main .processor .chart { display: none; }
+html.mobile .content-wrapper.updates-04-17 #main .memory .chart { display: none; }
+html.mobile .content-wrapper.updates-04-17 #main .graphics .chart { display: none; }
+html.mobile body#overview .updates-04-17 .learnmore .link.first { display: none; }
+/* End Updates - April 2017 */

@@ -1,0 +1,34 @@
+#comingsoon .learnmore .performance {
+	background-image: url(/mac-pro/images/learnmore_performance.png);
+	width:132px;
+}
+
+#comingsoon .learnmore .tech-specs {
+	background-image: url(/mac-pro/images/learnmore_tech-specs.png);
+	width:117px;
+}
+
+#sectionNav .list li .label { width:87px; }
+
+
+/* Updates - April 2017 */
+#desktop .updates-04-17 #processor #processor-chart { display: none; }
+#desktop .updates-04-17 #memory #memory-chart { display: none; }
+#desktop .updates-04-17 #graphics #graphics-chart { display: none; }
+#desktop .updates-04-17 #comingsoon .learnmore .performance.cta { display: none; }
+
+#static .updates-04-17 #memory .improvement { top: 190px; }
+#static .updates-04-17 #memory .bandwidth { top: 393px; }
+#static .updates-04-17 #memory .chart { display: none; }
+#static .updates-04-17 #graphics .chart { display: none; }
+#static .updates-04-17 #processor .chart { display: none; }
+
+#ipad .updates-04-17 #memory .improvement { bottom: auto; top: 0; }
+#ipad .updates-04-17 #memory .bandwidth { bottom: 0; top: auto; }
+#ipad .updates-04-17 #memory .chart { display: none !important; }
+#ipad .updates-04-17 #graphics .chart { display: none !important; }
+#ipad .updates-04-17 #processor .chart { display: none !important; }
+#ipad .updates-04-17 #comingsoon .learnmore .performance.cta { display: none; }
+
+.updates-04-17 #comingsoon .learnmore .performance { display: none; }
+/* End Updates - April 2017 */
