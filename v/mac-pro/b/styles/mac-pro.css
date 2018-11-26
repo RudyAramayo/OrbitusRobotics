@@ -37,8 +37,8 @@ sup, sup a { color: #999; }
 /* Image Replacement Styles */
 .ir { background-size: 100% 100%; background-repeat: no-repeat; text-indent: 200%; white-space: nowrap; overflow: hidden; font-size: 0; line-height: 0; color: transparent; }
 
-html.desktop a.more, html.desktop em.more, html.desktop p.more .inner, html.desktop span.more, html.mobile a.more, html.mobile em.more, html.mobile p.more .inner, html.mobile span.more, body.overview a.more, body.overview em.more, body.overview p.more .inner, body.overview span.more { padding-right: 12px; background-image: url(/v/mac-pro/b/images/open_arrow.png); background-position: 100% 60%; background-size: 6px 11px; background-repeat: no-repeat; }
-@media only screen { html.desktop a.more, html.desktop em.more, html.desktop p.more .inner, html.desktop span.more, html.mobile a.more, html.mobile em.more, html.mobile p.more .inner, html.mobile span.more, body.overview a.more, body.overview em.more, body.overview p.more .inner, body.overview span.more { background-image: url(/v/mac-pro/b/images/open_arrow.svg); } }
+html.desktop a.more, html.desktop em.more, html.desktop p.more .inner, html.desktop span.more, html.mobile a.more, html.mobile em.more, html.mobile p.more .inner, html.mobile span.more, body.overview a.more, body.overview em.more, body.overview p.more .inner, body.overview span.more { padding-right: 12px; background-image: url(/OrbitusRobotics/v/mac-pro/b/images/open_arrow.png); background-position: 100% 60%; background-size: 6px 11px; background-repeat: no-repeat; }
+@media only screen { html.desktop a.more, html.desktop em.more, html.desktop p.more .inner, html.desktop span.more, html.mobile a.more, html.mobile em.more, html.mobile p.more .inner, html.mobile span.more, body.overview a.more, body.overview em.more, body.overview p.more .inner, body.overview span.more { background-image: url(/OrbitusRobotics/v/mac-pro/b/images/open_arrow.svg); } }
 
 /* sticky nav */
 .stickynav.stickynav-undocked .stickynav-wrapper #productheader { margin: 0 auto; width: 980px; }
@@ -144,12 +144,12 @@ html.desktop a.more, html.desktop em.more, html.desktop p.more .inner, html.desk
 
 #globalfooter #breadory ol#breadcrumbs li a:hover { color: #666; }
 
-#breadory ol#breadcrumbs li a { background-image: url(/v/mac-pro/home/a/images/breadcrumb_separator.png); }
+#breadory ol#breadcrumbs li a { background-image: url(/OrbitusRobotics/v/mac-pro/home/a/images/breadcrumb_separator.png); }
 
-#breadory ol#breadcrumbs li.home a, #breadory ol#breadcrumbs li.home a:hover { background: url(/v/mac-pro/home/a/images/breadcrumb_home.png) no-repeat 1.25em 50%; }
+#breadory ol#breadcrumbs li.home a, #breadory ol#breadcrumbs li.home a:hover { background: url(/OrbitusRobotics/v/mac-pro/home/a/images/breadcrumb_home.png) no-repeat 1.25em 50%; }
 
-@media only screen { #breadory ol#breadcrumbs li a { background-image: url(/v/mac-pro/home/a/images/breadcrumb_separator.svg); }
-  #breadory ol#breadcrumbs li.home a, #breadory ol#breadcrumbs li.home a:hover { background-image: url(/v/mac-pro/home/a/images/breadcrumb_home.svg); } }
+@media only screen { #breadory ol#breadcrumbs li a { background-image: url(/OrbitusRobotics/v/mac-pro/home/a/images/breadcrumb_separator.svg); }
+  #breadory ol#breadcrumbs li.home a, #breadory ol#breadcrumbs li.home a:hover { background-image: url(/OrbitusRobotics/v/mac-pro/home/a/images/breadcrumb_home.svg); } }
 html.mobile { /* fonts */ /* links */ /* Sosumi */ }
 html.mobile, html.mobile body { background: #000; width: 1024px; }
 html.mobile sup { padding-left: 5px; bottom: .5em; }
@@ -227,11 +227,11 @@ html.mobile #globalfooter a { color: #70bce2; }
 html.mobile #globalfooter ul.piped a, html.mobile #globalfooter ul.piped a.contact_us, html.mobile #globalfooter .gf-sosumi { border-color: #444; }
 html.mobile #globalfooter #breadory { border-color: #444; }
 html.mobile #globalfooter #breadory ol#breadcrumbs li, html.mobile #globalfooter #breadory ol#breadcrumbs li a { color: #888; text-shadow: none; }
-html.mobile #globalfooter #breadory ol#breadcrumbs li a { background-image: url(/v/mac-pro/home/a/images/breadcrumb_separator.png); }
+html.mobile #globalfooter #breadory ol#breadcrumbs li a { background-image: url(/OrbitusRobotics/v/mac-pro/home/a/images/breadcrumb_separator.png); }
 html.mobile #globalfooter #breadory ol#breadcrumbs li a:hover { color: #666; }
-html.mobile #globalfooter #breadory ol#breadcrumbs li.home a, html.mobile #globalfooter #breadory ol#breadcrumbs li.home a:hover { background-image: url(/v/mac-pro/home/a/images/breadcrumb_home.png); }
-@media only screen { html.mobile #globalfooter #breadory ol#breadcrumbs li a { background-image: url(/v/mac-pro/home/a/images/breadcrumb_separator.svg); }
-  html.mobile #globalfooter #breadory ol#breadcrumbs li.home a, html.mobile #globalfooter #breadory ol#breadcrumbs li.home a:hover { background-image: url(/v/mac-pro/home/a/images/breadcrumb_home.svg); } }
+html.mobile #globalfooter #breadory ol#breadcrumbs li.home a, html.mobile #globalfooter #breadory ol#breadcrumbs li.home a:hover { background-image: url(/OrbitusRobotics/v/mac-pro/home/a/images/breadcrumb_home.png); }
+@media only screen { html.mobile #globalfooter #breadory ol#breadcrumbs li a { background-image: url(/OrbitusRobotics/v/mac-pro/home/a/images/breadcrumb_separator.svg); }
+  html.mobile #globalfooter #breadory ol#breadcrumbs li.home a, html.mobile #globalfooter #breadory ol#breadcrumbs li.home a:hover { background-image: url(/OrbitusRobotics/v/mac-pro/home/a/images/breadcrumb_home.svg); } }
 
 /* hide locale switcher */
 html body #ac-localeswitcher { display: none; }
